@@ -18,3 +18,12 @@
 .instructions {
   font-family: 'Courier New', Courier, monospace;
 }
+
+.pin {
+  background-image: image-url('pin.jpg');
+  position: absolute;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 30px;
+  width: 30px;
+}
