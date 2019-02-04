@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Counter from './components/counter';
+import Map from './components/map';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const counter = document.getElementById('root');
-  ReactDOM.render(<Counter />, counter);
+  const map = document.getElementById('root');
+  ReactDOM.render(<Map />, map);
 });
