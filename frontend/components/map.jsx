@@ -9,9 +9,7 @@ class Map extends React.Component {
     this.pins = []
   }
 
-  _onMouseMove(e) {
-    // console.log('mouse position = ' + this.state.x, this.state.y);
-    
+  _onMouseMove(e) {    
     this.setState({ x: e.nativeEvent.offsetX, y: e.nativeEvent.offsetY });    
   }
 
