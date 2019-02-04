@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Counter from './components/counter';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const root = document.getElementById('root');
-  ReactDOM.render(<h1>Welcome to AutoFinder</h1>, root);
+  const counter = document.getElementById('root');
+  ReactDOM.render(<Counter />, counter);
 });
