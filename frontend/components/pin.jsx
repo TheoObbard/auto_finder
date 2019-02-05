@@ -9,9 +9,7 @@ class Pin extends React.Component {
     }
   }
 
-  render() {
-    console.log(this.state);
-    
+  render() {    
     let styles = {
       top: this.state.pinY + 'px',
       left: this.state.pinX + 'px'
